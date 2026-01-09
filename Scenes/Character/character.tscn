@@ -5,9 +5,12 @@
 
 [node name="Character" type="CharacterBody2D"]
 script = ExtResource("1_isa4f")
+speed = 5.0
 
 [node name="ShadowSprite" type="Sprite2D" parent="."]
 texture = ExtResource("2_syf7y")
+centered = false
+offset = Vector2(-7, 0)
 
 [node name="CharacterSprite" type="Sprite2D" parent="."]
 
